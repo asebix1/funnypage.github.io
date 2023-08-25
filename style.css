@@ -1,0 +1,67 @@
+/* ---------------------------------------------------------------- */
+body {
+    background-color: rgb(70, 70, 70);
+}
+
+h2, p, #Paragraph {
+    color: #ffffff;
+    font-family: "Courier New", serif;
+}
+
+h2, p, #navbar {
+    color: #ffffff;
+    font-family: "Courier New", serif;
+}
+
+#navbar { /* unvisited link */
+ a:link {
+    color: rgb(255, 255, 255);
+  }
+  
+  /* visited link */
+  a:visited {
+    color: rgb(254, 255, 254);
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: hotpink;
+  }
+  
+  /* selected link */
+  a:active {
+    color: rgb(255, 255, 255);
+  } }
+
+/* ---------------------------------------------------------------- */
+
+#TextAlignCenter {
+    text-align: center;
+}
+
+#TextAlignLeft {
+    text-align: left;
+}
+
+#TextAlignRight {
+    text-align: right;
+}
+/* ---------------------------------------------------------------- */
+
+#ImageAlignLeft {
+    text-align: right;
+}
+
+/* ================================================================ */
+/* ---------------------------------------------------------------- */
+
+#Logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100px;
+    height: 100px;
+}
+
+/* ---------------------------------------------------------------- */
+
